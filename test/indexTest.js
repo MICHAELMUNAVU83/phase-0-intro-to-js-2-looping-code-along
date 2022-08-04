@@ -1,4 +1,5 @@
 const sinon = require( 'sinon' )
+const {writeCards , countDown}  = require("../index.js");
 
 describe( 'index.js', () => {
   let spy;
